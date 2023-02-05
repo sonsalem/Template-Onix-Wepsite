@@ -639,7 +639,7 @@ a {
 @media (max-width: 767px) {
     .plans .container.one {
     grid-template-columns: repeat(auto-fill , minmax(200px , 1fr));
-    gap: 10px;
+    gap: 15px;
 }
 }
 .plans .container .box {
