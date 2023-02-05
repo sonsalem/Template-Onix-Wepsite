@@ -636,6 +636,12 @@ a {
     grid-template-columns: repeat(auto-fill , minmax(320px , 1fr));
     gap: 50px;
 }
+@media (max-width: 767px) {
+    .plans .container.one {
+    grid-template-columns: repeat(auto-fill , minmax(200px , 1fr));
+    gap: 10px;
+}
+}
 .plans .container .box {
     background-color: #fff;
     position: relative;
